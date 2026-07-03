@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>readme-assets preview</title>
+<style>
+  body { margin: 0; font: 13px/1.5 ui-monospace, monospace; }
+  section { padding: 28px; }
+  section.light { background: #ffffff; color: #1D1956; }
+  section.dark { background: #0d1117; color: #F2F2F2; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 16px; }
+  .row { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+  figure { margin: 0; }
+  figcaption { margin-top: 6px; opacity: 0.6; font-size: 11px; }
+  /* <img> embed mimics GitHub's camo/img sandbox: no scripts run, external refs blocked */
+  img { display: block; max-width: 100%; }
+</style>
+</head>
+<body>
+  <section class="light">
+    <h2>Light variants (as &lt;img&gt;, GitHub-equivalent sandbox)</h2>
+    <div class="row">
+      <figure><img src="automata-light.svg" width="260" alt="automata" /><figcaption>automata-light.svg — Rule 30, 5.1s loop (SMIL)</figcaption></figure>
+      <figure><img src="harmograph-light.svg" width="230" alt="harmograph" /><figcaption>harmograph-light.svg — draw-in + 14°/s spin (CSS)</figcaption></figure>
+    </div>
+  </section>
+  <section class="dark">
+    <h2>Dark variants</h2>
+    <div class="row">
+      <figure><img src="automata-dark.svg" width="260" alt="automata dark" /><figcaption>automata-dark.svg</figcaption></figure>
+      <figure><img src="harmograph-dark.svg" width="230" alt="harmograph dark" /><figcaption>harmograph-dark.svg</figcaption></figure>
+    </div>
+  </section>
+</body>
+</html>

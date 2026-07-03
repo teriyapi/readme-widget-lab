@@ -10,6 +10,27 @@
   </a>
 </p>
 
+<!-- Lemma bento widgets — self-hosted animated SVGs (SMIL + CSS keyframes inside the
+     file, zero JS/external refs). Light/dark swap via <picture>. See README-BLOCK.md. -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="readme-assets/automata-dark.svg">
+          <img src="readme-assets/automata-light.svg" alt="Rule 30 cellular automaton revealing row by row on a 5.1s loop" width="312">
+        </picture>
+      </td>
+      <td align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="readme-assets/harmograph-dark.svg">
+          <img src="readme-assets/harmograph-light.svg" alt="Harmograph rosette drawing itself in, then slowly spinning" width="276">
+        </picture>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ## 🧪 what is this
@@ -77,6 +98,7 @@ Static, but they round out the aesthetic. From [skillicons.dev](https://skillico
 | Widget | Service | Animated how |
 |---|---|---|
 | Wave header | [capsule-render](https://github.com/kyechan99/capsule-render) | SVG animation, rendered on request |
+| Lemma bento figures | self-hosted (`readme-assets/`) | Self-contained SVG — SMIL clip reveal + CSS keyframes |
 | Typing text | [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) | SVG `<animate>` loop |
 | Snake | [Platane/snk](https://github.com/Platane/snk) | GitHub Action re-renders daily |
 | Stats / streak | [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | Re-rendered per page load |
